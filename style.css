@@ -1,0 +1,45 @@
+body{
+	background-color: lightblue
+}
+h1, h2{
+	text-align: center;
+}
+ul{
+	font-family: Arial; 
+	font-size: 18px; 
+}
+table{
+	text-align: center;
+	background-color: lightviolet;
+}
+th{
+	font-family: Arial; 
+	font-size: 16px;
+}
+h2{
+	color: darkviolet;
+}
+pre{
+	font-size: 14px; 
+}
+header {
+	margin-bottom: 10px;
+	display: flex;
+	flex-flow: row wrap;
+}
+nav{
+	height: 50px;
+	flex: 100%;
+	display: flex;
+}
+nav ul{
+	padding: 0;
+	list-style-type: none;
+	flex: 2;
+	display: flex;
+}
+nav li{
+	display: inline;
+	text-align: center;
+	flex: 1;
+}
